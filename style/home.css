@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    background: url(../Assets/Kilimanjaro\ Majesty\ Canvas.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    width: 110%; 
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 800px;
+}
+.navbar a{
+    background: transparent;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+section{
+     padding: 80px 13% 70px
+}
+.footer{
+    background: gray;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
