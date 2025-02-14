@@ -28,6 +28,14 @@ header{
     justify-content: center;
     z-index: 100;
 }
+.head-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
 .logo{
     font-size: 32px;
     color: #fff;
@@ -48,6 +56,7 @@ section{
      padding: 80px 13% 70px
 }
 .footer{
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,auto));
@@ -57,30 +66,4 @@ section{
     left: 0;
     right: 0;
     padding: 10px;
-    text-decoration: none;
-}
-.head-content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
-}
-.head-content h1{
-    font-size: 50px;
-    margin-top: 80px;
-
-}
-.head-content p{
-    margin: 20px auto;
-}
-button{
-    width: 200px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 20px 10px;
-    font-weight: 400;
-    border: solid 2px;
-    background: gray;
 }

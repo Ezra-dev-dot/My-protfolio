@@ -16,6 +16,7 @@ body{
     color: #fff;
     font-size: x-large;
 }
+
 header{
     position: fixed;
     top: 0;
@@ -27,6 +28,15 @@ header{
     align-items: center;
     justify-content: center;
     z-index: 100;
+}
+.header-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    list-style-type: none;
 }
 .logo{
     font-size: 32px;
@@ -58,29 +68,4 @@ section{
     right: 0;
     padding: 10px;
     text-decoration: none;
-}
-.head-content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
-}
-.head-content h1{
-    font-size: 50px;
-    margin-top: 80px;
-
-}
-.head-content p{
-    margin: 20px auto;
-}
-button{
-    width: 200px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 20px 10px;
-    font-weight: 400;
-    border: solid 2px;
-    background: gray;
 }

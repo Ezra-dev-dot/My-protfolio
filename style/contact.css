@@ -37,7 +37,7 @@ header{
 }
 .navbar a{
     opacity: 0.7;
-    background: transparent;
+    box-shadow: 0 0 10px #0000001a;
     margin-left: 10px;
     font-size: 18px;
     color: #fff;
@@ -53,34 +53,22 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(200px,auto));
     gap: 1.5rem;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
     padding: 10px;
     text-decoration: none;
 }
-.head-content{
-    width: 100%;
+.header-content{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
+    top: 60px;
+    margin-left: 260px;
 }
-.head-content h1{
-    font-size: 50px;
-    margin-top: 80px;
-
-}
-.head-content p{
-    margin: 20px auto;
-}
-button{
-    width: 200px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 20px 10px;
-    font-weight: 400;
-    border: solid 2px;
-    background: gray;
+.form-container{
+    background-color: gray;
+    width: 430px;
+    padding: 40px 100px;
+    border-radius: 10px;
+    border: 2px solid #ffffff33;
+    box-shadow: 0 0 10px #0000001a;
 }
