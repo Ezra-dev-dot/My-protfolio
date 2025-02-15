@@ -8,13 +8,13 @@
 body{
     min-height: 80vh;
     max-height: max-content;
-    background: url(../Assets/e24f7b43-da99-423f-94a7-ca7f4bf12592.webp) no-repeat;
+    /*background: url(../Assets/e24f7b43-da99-423f-94a7-ca7f4bf12592.webp) no-repeat;
     background-size: cover;
     background-position: center;
     width: auto;
     height: auto;
     color: #fff;
-    font-size: x-large;
+    font-size: x-large; */
 }
 header{
     position: fixed;
@@ -58,4 +58,11 @@ section{
     right: 0;
     padding: 10px;
     text-decoration: none;
+}
+img{
+    position: absolute;
+    margin-left: 350px;
+}
+#content{
+    font-size: xx-large;
 }
